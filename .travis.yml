@@ -1,0 +1,12 @@
+
+compiler: gcc
+
+language: c
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  46:ea:01:c8:8f:df:b0:82:74:51:f2:98:6c:77:30:6d
+  keep_history: true
+  on:
+    branch: master
